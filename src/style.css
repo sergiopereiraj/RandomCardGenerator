@@ -13,9 +13,12 @@
   margin-left: 7%;
   padding-top: 4%;
 }
-p {
-  font-size: 90px;
+.col-12 {
+  font-size: 80px;
 }
-i {
-  font-size: 60px;
+#numero {
+  text-align: center;
+}
+#pintadown {
+  text-align: end;
 }
