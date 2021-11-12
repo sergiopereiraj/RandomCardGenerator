@@ -26,5 +26,6 @@ window.onload = function() {
       "K"
     ];
     //const suits = ["<i class="fas fa-heart text-danger"></i>", "diamond", "spade", "club"];
+    function constructor() {}
   };
 };
