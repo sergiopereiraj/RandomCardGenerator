@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+  background: greenyellow;
+  height: 450px;
+  width: 500px;
+}
+.row {
+  background: white;
+  border-radius: 3%;
+  height: 400px;
+  width: 400px;
+  margin-left: 7%;
+  padding-top: 4%;
+}
+p {
+  font-size: 90px;
+}
+i {
+  font-size: 60px;
+}
