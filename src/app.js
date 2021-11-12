@@ -28,10 +28,18 @@ window.onload = function() {
   const suitDown = document.querySelector(".suit-down");
   const pinta = suits[Math.floor(Math.random() * 4)];
   const p1 = document.createElement("p");
-  p1.classList.add("text-danger");
+  if (pinta == "♦" || pinta == "♥") {
+    p1.classList.add("text-danger");
+  } else {
+    p1.classList.add("text-dark");
+  }
   p1.innerHTML = pinta;
   const p2 = document.createElement("p");
-  p2.classList.add("text-danger");
+  if (pinta == "♦" || pinta == "♥") {
+    p2.classList.add("text-danger");
+  } else {
+    p2.classList.add("text-dark");
+  }
   p2.innerHTML = pinta;
   suitUp.appendChild(p1);
   suitDown.appendChild(p2);

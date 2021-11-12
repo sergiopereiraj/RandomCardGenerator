@@ -2,22 +2,22 @@
 
 .container {
   background: greenyellow;
-  height: 450px;
+  height: 550px;
   width: 500px;
 }
 .row {
   background: white;
   border-radius: 3%;
-  height: 400px;
+  height: 500px;
   width: 400px;
   margin-left: 7%;
-  padding-top: 4%;
 }
 .col-12 {
-  font-size: 80px;
+  font-size: 100px;
 }
 #numero {
   text-align: center;
+  font-size: 120px;
 }
 #pintadown {
   text-align: end;
