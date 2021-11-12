@@ -2,15 +2,17 @@
 
 .container {
   background: greenyellow;
-  height: 550px;
-  width: 500px;
+  height: 600px;
+  width: 570px;
+  margin-top: 150px;
+  padding-top: 35px;
 }
 .row {
   background: white;
   border-radius: 3%;
-  height: 500px;
+  height: 530px;
   width: 400px;
-  margin-left: 7%;
+  margin-left: 70px;
 }
 .col-12 {
   font-size: 100px;
